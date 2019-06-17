@@ -7,6 +7,8 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.recipeapp.R
 import com.example.recipeapp.db.entities.Recipe
+import com.example.recipeapp.ui.home.HomeActivity
+import kotlinx.android.synthetic.main.card_view_recipe_home_view.view.*
 
 /**
  * Created by Vimosanan.A
@@ -34,7 +36,13 @@ class ListRecipeMenu(var context: Context, var recipeList: MutableList<Recipe>):
 
     class RecipeMenuViewHolder(recipeMenuView: View):RecyclerView.ViewHolder(recipeMenuView){
         fun bind(recipe: Recipe){
+            itemView.cv_recipe_name.text = recipe.name
+            itemView.cv_recipe_time.text = recipe.timeNeeded
+            itemView.cv_recipe_type.text = recipe.recipeTypeId
 
+            itemView.cv_menu.setOnClickListener{
+                recipe.id.let { id -> (itemView.context as HomeActivity).getRecipeView(id) }
+            }
 
         }
 
