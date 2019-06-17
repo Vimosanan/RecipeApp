@@ -4,6 +4,27 @@
     <string name="title_activity_create">CreateActivity</string>
     <string name="action_settings">Settings</string>
 
+    <!--steps create activity-->
+    <string name="btn_text_next">Next</string>
+    <string name="btn_text_back">Finish</string>
+    <string name="text_view_step">Step:</string>
+    <string name="edit_text_hint_step">Describe the steps here in short.</string>
+    <string name="image_view_hint">Upload a photo here</string>
+
+
+    <!--create recipe-->
+    <string name="btn_text_next_main">Next</string>
+    <string name="tv_name">Name:</string>
+    <string name="tv_time">Time Needed:</string>
+    <string name="tv_time_unit">mints.</string>
+    <string name="recipe_id">Select Recipe Type:</string>
+    <string name="ingredient">Ingredients:</string>
+    <string name="title">Create your own recipe!</string>
+    <string name="image_view_hint_main">Upload a photo here!</string>
+
+
+
+
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

@@ -7,6 +7,12 @@
         android:layout_height="match_parent"
         tools:context=".ui.create.CreateActivity">
 
-
+    <FrameLayout
+            android:id="@+id/fragmentContainer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/guideline2" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
