@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--values are hardcoded as the time line is short and the app is for test purposes only-->
+
+    <!--Recipe Types 2019/06/17-->
+    <string-array name="recipe_types">
+        <item>Appetizer and Snacks</item>
+        <item>Breakfast and Brunch</item>
+        <item>Desserts</item>
+        <item>Dinner</item>
+        <item>Drinks</item>
+        <item>Others</item>
+    </string-array>
+
+</resources>
