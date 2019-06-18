@@ -4,10 +4,11 @@
     <string name="title_activity_create">CreateActivity</string>
     <string name="action_settings">Settings</string>
 
-    <!--steps create activity-->
+    <!--stepList create activity-->
     <string name="btn_text_next">Next</string>
     <string name="btn_text_back">Finish</string>
     <string name="text_view_step">Step:</string>
+    <string name="text_view_step_title">Step </string>
     <string name="edit_text_hint_step">Describe the steps here in short.</string>
     <string name="image_view_hint">Upload a photo here</string>
 
@@ -21,6 +22,17 @@
     <string name="ingredient">Ingredients:</string>
     <string name="title">Create your own recipe!</string>
     <string name="image_view_hint_main">Upload a photo here!</string>
+
+
+    <!--error messages-->
+    <string name="empty_name">Please enter a name of your recipe!</string>
+    <string name="empty_time">Please enter a duration for your recipe!</string>
+    <string name="empty_ingredients">Please enter at least one ingredient for your recipe!</string>
+    <string name="empty_recipe_id">Please select a recipe type!</string>
+    <string name="empty_step">Please describe the step!</string>
+    <string name="empty_image">Please select a image!</string>
+
+
 
 
 

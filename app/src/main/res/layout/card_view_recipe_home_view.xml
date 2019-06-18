@@ -27,12 +27,12 @@
 
         <TextView
                 android:id="@+id/cv_recipe_type"
-                android:layout_width="0dp"
+                android:layout_width="wrap_content"
                 android:layout_height="15dp"
                 app:layout_constraintStart_toStartOf="@+id/cv_recipe_time"
                 android:layout_marginTop="4dp"
                 app:layout_constraintTop_toBottomOf="@+id/cv_recipe_time"
-                app:layout_constraintEnd_toEndOf="@+id/cv_recipe_time"/>
+        />
 
         <TextView
                 android:id="@+id/cv_recipe_name"
@@ -48,14 +48,12 @@
 
         <TextView
                 android:id="@+id/cv_recipe_time"
-                android:layout_width="0dp"
+                android:layout_width="wrap_content"
                 android:layout_height="15dp"
                 app:layout_constraintStart_toStartOf="@+id/cv_recipe_name"
                 app:layout_constraintTop_toBottomOf="@+id/cv_recipe_name"
                 android:layout_marginTop="4dp"
-                app:layout_constraintEnd_toEndOf="parent"
-                android:layout_marginEnd="8dp"
-                android:layout_marginRight="8dp"/>
+        />
 
         <androidx.constraintlayout.widget.Guideline
                 android:layout_width="wrap_content"
@@ -63,5 +61,12 @@
                 android:id="@+id/guideline2"
                 app:layout_constraintGuide_percent="0.30"
                 android:orientation="vertical"/>
+        <TextView
+                android:text="@string/tv_time_unit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" app:layout_constraintStart_toEndOf="@+id/cv_recipe_time"
+                android:layout_marginLeft="4dp" android:layout_marginStart="4dp"
+                app:layout_constraintBaseline_toBaselineOf="@+id/cv_recipe_time"/>
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.cardview.widget.CardView>
